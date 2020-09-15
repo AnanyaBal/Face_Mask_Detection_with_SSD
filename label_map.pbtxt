@@ -1,14 +1,14 @@
 item {
     id: 1
-    name: 'mask'
+    name: 'with_mask'
 }
 
 item {
     id: 2
-    name: 'no_mask'
+    name: 'without_mask'
 }
 
 item {
     id: 3
-    name: 'mask_worn_incorrectly'
+    name: 'mask_weared_incorrect'
 }
