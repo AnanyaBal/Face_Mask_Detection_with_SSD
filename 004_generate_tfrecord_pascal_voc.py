@@ -33,11 +33,11 @@ FLAGS = flags.FLAGS
 
 # TO-DO replace this with label map
 def class_text_to_int(row_label):
-    if row_label == 'mask':
+    if row_label == 'with_mask':
         return 1
-    if row_label == 'no_mask':
+    if row_label == 'without_mask':
         return 2
-    if row_label == 'mask_worn_incorrectly':
+    if row_label == 'mask_weared_incorrect':
         return 3
     else:
         0
